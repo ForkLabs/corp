@@ -1,0 +1,557 @@
+*, html, body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#main_header {
+    background: #303030;
+    position: relative;
+    width: 100%;
+    height: 96px;
+    border-bottom: 4px solid #94B273;
+    z-index: 100;
+}
+
+#forklabs_logo_badge {
+    position: relative;
+    width: 93px;
+    height: 93px;
+    top: 17px;
+    left: 17px;
+    float: left;
+}
+
+#forklabs_logo_badge_link {
+    background: url('http://www.forklabsllc.com/images/forklabs_logo.png') no-repeat 3px 0px;    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.greenfont {
+    color: #94B273;
+}
+
+a#forkLabs_logo_text {
+    font-family: trebuchet ms;
+    font-size: 44px;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    letter-spacing: 3px;
+}
+span#forkLabs_logo_text_fg {
+    position: absolute;
+    color: #fff;
+    opacity: .25;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+    top: 16px;
+    line-height: 19px;
+    left: 0px;
+}
+
+div#navigation_top {
+    position: relative;
+    float: left;
+    left: 120px;
+    width: 726px;
+    height: 60px;
+    top: 30px;
+}
+ul#navigation_menu {
+    list-style: none;
+}
+li.navigation_li {
+    float: left;
+    margin-left: 40px;
+    font-size: 24px;
+    margin-top: 16px;
+    left: -20px;
+    position: relative;
+}
+a.navigation_link {
+    font-family: trebuchet ms;
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.whitefont {
+    color:  #fff;
+}
+.whitefont {
+    color: #969696;
+}
+.whitefont:hover {
+    color: #fff;
+}
+div#page_content {
+    position: relative;
+}
+.page_content {
+    position: relative;
+}
+#forklabs_introduction {
+    background: #e4e4e4;
+    position: relative;
+    width: 100%;
+    height: 439px;
+}
+#forklabs_ourServices {
+    background: #303030;
+    position: relative;
+    height: 220px;
+}
+#forklabs_localServices {
+    position: relative;
+    background: url('http://forklabsllc.com/images/local_services_background.png') no-repeat bottom right #94b25d;
+    height: 190px;
+}
+#main_footer {
+    position: relative;
+    background: #303030;
+    height: 77px;
+}
+
+back {}
+div#footer_links {
+    float: left;
+    width: 163px;
+    height: 50px;
+    position: relative;
+    top: 27px;
+    left: 24px;
+}
+ul#footer_links_list {
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer_link-li a {
+    text-decoration: none;
+    font-family: trebuchet ms;
+    font-size: 18px;
+}
+li.footer_link-li {
+    float: left;
+    margin-right: 9px;
+}
+.footer_link-icon {
+    position: relative;
+    top: -23px;
+    left: 11px;
+}
+#footer_copyright {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 29%;
+    top: 31px;
+    font-size: 15px;
+    font-family: trebuchet ms;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+div#imac_template {
+    background: url('http://www.forklabsllc.com/images/imac_preview.png');
+    position: relative;
+    width: 379px;
+    height: 308px;
+    top: 70px;
+    left: 37px;
+}
+div#iphone_template {
+    background: url('http://www.forklabsllc.com/images/iphone_preview.png') no-repeat 0 0;
+    position: relative;
+    width: 80px;
+    height: 153px;
+    top: -81px;
+    left: 377px;
+}
+div#intro_statement {
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    left: 536px;
+    font-size: 37px;
+    width: 700px;
+    font-family: trebuchet ms;
+    font-style: italic;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #303030;
+}
+
+#ourwork_label {
+    position: absolute;
+    top: 211px;
+    left: 630px;
+    width: 450px;
+    height: 86px;
+}
+#checkout {
+    color: #AAA;
+    font-family: Trebuchet MS;
+    font-size: 33px;
+    position: absolute;
+    top: 29px;
+    left: 16px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #fff;
+}
+#ourwork_button {
+    #background: green;
+    width: 224px;
+    height: 65px;
+    top: 5px;
+    position: relative;
+    left: 203px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+#ourwork_button a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: trebuchet ms;
+    text-decoration: none;
+    color: #fff;
+    font-size: 33px;
+    line-height: 69px;
+}
+.angled-135 {
+background-color: #94b25d;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+.angled-136 {
+background-color: #303030;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+.angled-137 {
+background-color: transparent;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+.stripes {
+height: 250px;
+width: 375px;
+float: left;
+margin: 10px;
+-webkit-background-size: 50px 50px;
+-moz-background-size: 50px 50px;
+background-size: 10px 10px;
+-moz-box-shadow: 1px 1px 8px gray;
+box-shadow: 1px 1px 1px #fff;
+}
+
+div#ourServices-title {
+    position: relative;
+    height: 55px;
+    top: -4px;
+    width: 242px;
+    color: #fff;
+    font-family: trebuchet ms;
+    text-align: center;
+    line-height: 51px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    box-shadow: none;
+}
+
+.ourServices_panel-title {
+    width: 190px;
+    position: relative;
+    height: 140px;
+    top: 80px;
+    left: 37px;
+}
+.ourServices_panel-title {
+    font-family: trebuchet ms;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    color: #999;
+    font-size: 19px;
+    top: 62px;
+    height: 27px;
+}
+
+div#ourServices_panel-fortheweb {
+    position: relative;
+    height: 156px;
+    width: 191px;
+    top: 62px;
+    left: 47px;
+}
+div#ourServices_panel-forbusiness {
+    position: absolute;
+    width: 190px;
+    height: 153px;
+    top: 63px;
+    left: 256px;
+}
+div#ourServices_panel-formobile {
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    top: 63px;
+    left: 472px;
+}
+.ourServices_panel-title {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+ul.ourServices_panel-ul {
+    position: absolute;
+    top: 46px;
+    height: 110px;
+    color: #94B273;
+    list-style: square;
+    font-size: 21px;
+    left: 20px;
+}
+ul.ourServices_panel-ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #999;
+    font-family: trebuchet ms;
+}
+
+ul.ourServices_panel-ul li a:hover {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-family: trebuchet ms;
+}
+
+a#footer_about_link {
+    position: relative;
+    left: 26px;
+    text-decoration: none;
+    font-family: trebuchet ms;
+    top: 4px;
+}
+
+a#footer_facebook_icon {
+position: absolute;
+left: 93px;
+top: 4px;
+width: 21px;
+height: 21px;
+}
+
+div#footer_divider {
+    position: absolute;
+    background: #181818;
+    height: 25px;
+    width: 1px;
+    left: 103px;
+    top: 29px;
+    box-shadow: 1px 0px 0px #444;
+}
+
+div#ourServices_technologies {
+    position: absolute;
+    background: url("http://forklabsllc.com/images/technologies.png") no-repeat 0px 0px transparent;
+    width: 481px;
+    height: 81px;
+    top: 106px;
+    left: 761px;
+}
+div#ourServices_slogan {
+    position: absolute;
+    background: blue;
+    top: 25px;
+    left: 767px;
+    background: #252525;
+    color: #666;
+    font-family: trebuchet ms;
+    font-size: 22px;
+    font-style: italic;
+    padding: 7px 7px 7px 7px;
+    width: 464px;
+}
+div#ourServices_divider {
+    background: #272727;
+    width: 1px;
+    height: 162px;
+    position: absolute;
+    left: 690px;
+    top: 30px;
+    box-shadow: 1px 0px 0px #383838;
+}
+
+div#localServices-title {
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: -4px;
+    left: 2px;
+    box-shadow: none;
+    text-align: center;
+    font-family: trebuchet ms;
+    font-size: 23px;
+    line-height: 53px;
+    color: #444444;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0px #C6D4B8;
+}
+
+div#forklabs_localServices {}
+div#localServices-description {
+    background: #303030;
+    position: relative;
+    width: 238px;
+    height: 97px;
+    left: 12px;
+    top: 71px;
+}
+h1#localServices-h1 {
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    font-size: 19px;
+    font-family: trebuchetms;
+    text-align: center;
+    line-height: 38px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+p#localServices-p {
+    width: 222px;
+    height: 55px;
+    color: #CECECE;
+    font-size: 12px;
+    font-family: trebuchet ms;
+    position: relative;
+    margin: 0 auto;
+    line-height: 17px;
+    text-align: center;
+    top: 5px;
+}
+.service_image {
+    position: absolute;
+}
+div#service_image-computerRepair {
+    background: url('http://forklabsllc.com/images/services_icon-computerrepair.png') no-repeat 0px 0px transparent;
+    width: 146px;
+    height: 85px;
+    left: 11px;
+    top: 25px;
+}
+div#localService-computer_repair,Ã‚Â localService-virus_removal, {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    background: red;
+    background: red;
+    left: 290px;
+    top: 14px;
+}
+
+.localService_box {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    top: 14px;
+}
+div#localService-computer_repair {
+    left: 290px;
+}
+div#localService-virus_removal {
+    left: 487px;
+}
+div#localService-surveillance {
+    left: 685px;
+}
+.service_label {
+    background: #303030;
+    color: #fff;
+    font-family: trebuchet ms;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 146px;
+    position: relative;
+    margin: 0 auto;
+    top: 122px;
+}
+div#service_image-virus_removal {
+    background: url('http://forklabsllc.com/images/services_icon-virusremoval.png') no-repeat 0px 0px transparent;
+    left: 16px;
+    top: 9px;
+    width: 140px;
+    height: 108px;
+}
+
+div#service_image-surveillance {
+    background: url('http://forklabsllc.com/images/services_icon-surveillance.png') no-repeat 0px 0px transparent;
+    left: 24px;
+    top: -6px;
+    width: 114px;
+    height: 127px;
+}
+
+body {
+    background: #303030;
+    min-width: 1260px;
+}
+div#page_content-coming_soon {
+    background: #94b25d;
+    height: 600px;
+    position: relative;
+}
+div#coming_soon_wrap {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    top: 164px;
+    position: relative;
+}
+h1#coming_soon-heading {
+    color: #fff;
+    font-family: trebuchet ms;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 0px #869B5F;
+}
+div#coming_soon-statement {
+    font-family: trebuchet ms;
+    color: #303030;
+    font-size: 19px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 16px;
+    line-height: 25px;
+    text-shadow: 1px 1px 0px #ACC77B;
+}
+div#forkLabs_logo {
+    position: relative;
+    float: left;
+    top: 32px;
+    left: 33px;
+}
